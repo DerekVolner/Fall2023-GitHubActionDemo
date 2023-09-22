@@ -15,7 +15,7 @@ public class Main {
 
     public static int collatz(int n)
     {
-        int count = 1;
+        int count = 0;
         if (n < 1) throw new IllegalArgumentException("n must be >= 1");
         while (n > 1)
         {
