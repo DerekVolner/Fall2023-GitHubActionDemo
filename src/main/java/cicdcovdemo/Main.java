@@ -25,7 +25,7 @@ public class Main {
                 n = 3*n+1;
             count ++;
         }
-        return count;
+        return count; //return statements allow for unit tests instead of print statements
     }
     /**
      * @param args the command line arguments
